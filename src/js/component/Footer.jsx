@@ -5,12 +5,11 @@ export function Footer () {
     const heartSymbol = "&#x2665;";
 
     return(
+
         <div  className="containerFooter">
             <footer id="footer" className="py-3 my-4">            
-            
-    
                 <p className="text-center text-muted fs-5">
-          © 2024 Grupo 2, de la Cohorte 44 Spain con mucho amor a{" "} <a className="enlace link-success" href="https://4geeks.com/" > 4Geeksacademy </a> 
+          © 2024 Armand Alan<a className="enlace link-success" href="https://4geeks.com/" > 4Geeksacademy </a> 
           <span dangerouslySetInnerHTML={{ __html: heartSymbol }}></span>
         </p>              
             </footer>

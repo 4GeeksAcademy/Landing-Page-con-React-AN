@@ -11,19 +11,23 @@ export const Navbar = () =>{
 			<ul className="navbar-nav me-5">
 			  <li className="nav-item">
 				<a className="nav-link active text-light hover-link" aria-current="page"  href="https://getbootstrap.com/"
-                 ><b>Home</b></a>
+                  onMouseOver={(e) => (e.target.style.color = "white")}
+                  onMouseOut={(e) => (e.target.style.color = "gray")}><b>Home</b></a>
 			  </li>
 			  <li className="nav-item">
 				<a className="nav-link text-light" href="https://getbootstrap.com/docs/5.3/getting-started/introduction/"
-                 ><b>About</b></a>
+                  onMouseOver={(e) => (e.target.style.color = "white")}
+                  onMouseOut={(e) => (e.target.style.color = "gray")}><b>About</b></a>
 			  </li>
 			  <li className="nav-item">
 				<a className="nav-link text-light" href="https://icons.getbootstrap.com/"
-                 ><b>Services</b></a>
+                  onMouseOver={(e) => (e.target.style.color = "white")}
+                  onMouseOut={(e) => (e.target.style.color = "gray")}><b>Services</b></a>
 			  </li>
 			  <li className="nav-item">
 				<a className="nav-link text-light"  href="https://themes.getbootstrap.com/" 
-                  ><b>Contact</b></a>
+                   onMouseOver={(e) => (e.target.style.color = "white")}
+				   onMouseOut={(e) => (e.target.style.color = "gray")}><b>Contact</b></a>
 			  </li>
 			</ul>
 		  </div>
